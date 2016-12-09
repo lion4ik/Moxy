@@ -87,6 +87,8 @@ dependencies {
   apt 'com.arello-mobile:moxy-compiler:1.3.3'
 }
 ```
+### Note: if you are using gradle plugin verion 2.2.2 and above so you can use annotationProcessor instead of apt
+
 For additional base view classes `MvpActivity` and `MvpFragment` add this:
 ```groovy
 dependencies {
